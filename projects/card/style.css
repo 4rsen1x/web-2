@@ -13,10 +13,57 @@ body{
     width: 100%;
     height: 100vh;
     padding: 20px;
-    background-color: #15638F;
-    
+    background-color: #15638F;   
+}
+
+.card{
+    font-family: "Open Sans", sans-serif;
+    width: 400px;
+    height: 644px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
 }
 
 
+.card img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 
+.info_part {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 400;
+    min-width: fit-content;
+    
+}
+
+.submit {
+    padding: 10x 20px;
+    font-size: 24px;    
+    font-weight: 700;
+    background-color: #2797B2;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 52px;
+}
